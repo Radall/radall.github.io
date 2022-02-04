@@ -1,0 +1,22 @@
+header:
+  - titles:
+      # @start locale config
+      en      : &EN       Posts
+      de      : &DE       Posts
+      # @end locale config
+    url: /archive.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      de      : &DE       Über
+      # @end locale config
+    url: /about.html
+  
+side:
+  - title: Content
+    children: 
+      - title: Archive
+        url: /archive.html
+      - title: About
+        url: /about.html
