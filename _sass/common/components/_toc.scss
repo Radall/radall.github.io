@@ -1,3 +1,14 @@
+
+/*
+ul.toc li::marker {
+  content: "🧡 ";
+}
+*/
+ul.toc li {
+  list-style-type: disc;
+  color: rgb(255, 139, 100);
+}
+
 ul.toc {
   display: block;
   margin: 0;

@@ -69,7 +69,7 @@ layout: base
 
       <div class="page__main-inner">
       {%- if _header != false -%}
-        <div class="page__header d-print-none" style="height: 3em">
+        <div class="page__header d-print-none">
         {%- assign _header_theme = page.header.theme | default: layout.header.theme -%}
         {%- if _header_theme == 'dark'-%}
           {%- include header.html theme='dark' background=page.header.background -%}

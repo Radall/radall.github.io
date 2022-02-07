@@ -163,9 +163,3 @@ html,
     padding-top: map-get($layout, header-height);
   }
 }
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
